@@ -1,3 +1,6 @@
+@import "./global/Fonts/tipografia.css";
+@import "./global/Colors/colors.css";
+
 /* reset */
 * {
     margin: 0px;

@@ -1,0 +1,20 @@
+.btn {
+    display: inline-block;
+    padding: 16px 32px ;
+    background: linear-gradient(180deg, var(--color-p1) 0%, #f2a50c 100%);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--color-p5);
+    font-size: 18px;
+    line-height: 1.33;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.btn:hover {
+
+    background: linear-gradient(180deg, #ffb60d 0%, #e5931f 100%);
+
+
+}
