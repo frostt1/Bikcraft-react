@@ -1,41 +1,36 @@
 //router
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 //brand
-import { ReactComponent as Bikcraft } from '../../Assets/bikcraft.svg'
+import { ReactComponent as Bikcraft } from "../../Assets/bikcraft.svg";
 // css module
-import styles from '../Header/Header.module.css'
-
+import styles from "../Header/Header.module.css";
 
 const Header = () => {
-  return (
-    <header className={styles.header_bg}>
-        <div className={styles.header}>
-            {/* brand */}
-        <NavLink to="/"> <Bikcraft /> </NavLink>
+    return (
+        <header className={styles.header_bg}>
+            <div className={styles.header}>
+                {/* brand */}
+                <NavLink to="/">
+                    {" "}
+                    <Bikcraft />{" "}
+                </NavLink>
 
-            <nav aria-label='menu principal'>
+                <nav aria-label="menu principal">
                     <ul className={styles.header_menu}>
                         <li>
-                            <NavLink to="/">
-                                Home
-                            </NavLink>
+                            <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/bicicletas">
-                                Bicicletas
-                            </NavLink>
+                            <NavLink to="/bicicleta">Bicicletas</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contato">
-                                Contato
-                            </NavLink>
+                            <NavLink to="/contato">Contato</NavLink>
                         </li>
                     </ul>
+                </nav>
+            </div>
+        </header>
+    );
+};
 
-            </nav> 
-        </div>  
-    </header>
-  )
-}
-
-export default Header
+export default Header;

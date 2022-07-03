@@ -9,6 +9,16 @@
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+    margin: 0;
+}
+
 a {
     color: inherit;
 }
@@ -22,4 +32,24 @@ ul, li {
     list-style: none;
     margin: 0px;
     padding: 0p;
+}
+
+img { 
+    max-width: 100%;
+    display: block;
+}
+
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
+
+.container { 
+
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+
 }

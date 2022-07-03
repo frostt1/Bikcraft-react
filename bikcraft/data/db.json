@@ -1,0 +1,22 @@
+{
+    "bicicletas": [
+      {
+        "id": 1,
+        "name": "Magic Might",
+        "img": "Assets/img/bicicletas/magic-home.jpg",
+        "price": 2499
+      },
+      {
+        "id": 2,
+        "name": "Nimbus Stark",
+        "img": "Assets/img/bicicletas/nebula-home.jpg",
+        "price": 4999
+      },
+      {
+        "id": 3,
+        "name": "Nebula Cosmic",
+        "img": "Assets/img/bicicletas/nimbus-home.jpg",
+        "price": 3999
+      }
+    ]
+  }
